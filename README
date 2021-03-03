@@ -1,0 +1,6 @@
+The aim of this project is to use an arduino microcontroller to water plants. The project will begin with basic functionality (water once a day for five minutes) with the intent to increase in complexity and functionality over time on a case by case basis (ie, design a function, implement it, test it and then push to the final main build).
+
+The basic idea is as such:
+	A reservoir of water contains a small 12v water pump which can be toggled on and off using a relay connected to the arduino. Using the millis() function to determine the time relative to when the pump was last used the pump is toggled on and off, once a day for five minutes at a time.
+	
+
