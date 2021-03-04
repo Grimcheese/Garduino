@@ -3,4 +3,19 @@ The aim of this project is to use an arduino microcontroller to water plants. Th
 The basic idea is as such:
 	A reservoir of water contains a small 12v water pump which can be toggled on and off using a relay connected to the arduino. Using the millis() function to determine the time relative to when the pump was last used the pump is toggled on and off, once a day for five minutes at a time.
 	
-
+Current Functionality
+	The arduino can turn a pump on and off according to specified time intervals which are hard coded into the program (MAX_PUMP_RUN_TIME).
+	
+Required items:
+	Arduino
+	Relay Switch
+	Small DC Water Pump
+	Power sources for 
+	Poly tubing/sprinklers in garden bed or pot plants
+	
+Future features/Ideas
+	Water level detection to ensure pump is not running while reservoir is empty.
+	Variable dial to change pump flow rate (potentiometer connected to pumps power circuit).
+	Implement more options regarding time to water and for how long. Date and Time functionality to program in what days and at what time to water. Soil moisture level to water when moisture level is below a certain point.
+	The ability for the program to recognise separate watering stations and to water them independantly (using some sort of solenoid setup?).
+	
