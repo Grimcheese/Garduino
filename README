@@ -1,3 +1,15 @@
+NOTE: This project is going to be repurposed from its original use as a water timer and into a general computing device for use in the garden. The original specs will be kept at the bottom of this document while new features and functionality will be placed from this point.
+
+General ideas:
+	A weather station monitoring device
+	Control a video capture device and send output to main server pc
+		Monitors progress to front garden and tracks wildlife that may enter
+		Regular snapshots taken
+		Detect motion
+
+
+---------------ORIGINAL SPECS---------------
+
 The aim of this project is to use an arduino microcontroller to water plants. The project will begin with basic functionality (water once a day for five minutes) with the intent to increase in complexity and functionality over time on a case by case basis (ie, design a function, implement it, test it and then push to the final main build).
 
 The basic idea is as such:
